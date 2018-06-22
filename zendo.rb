@@ -1,11 +1,11 @@
 # red blue green
 # small medium large
 
-def zendo(rule, play)
-#   your code here
+def zendo(rule, pieces)
+  rule == pieces
 end
 
-rule = '???' # exactly one large red piece
-play = '???' # one large red piece
+rule = '1LR' # exactly one large red piece
+play = '1LR' # one large red piece
 
 p zendo(rule, play)
