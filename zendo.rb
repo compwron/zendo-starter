@@ -5,7 +5,7 @@ def evaluate_play(rule, play)
 #   your code here
 end
 
-rule = '1 large red'
-play = '1 large red'
+rule = '???' # exactly one large red piece
+play = '???' # one large red piece
 
 p evaluate_play(rule, play)
